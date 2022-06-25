@@ -1,0 +1,26 @@
+body{
+    background:#000;
+    font-family:"Poppins";
+  }
+  .box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:100%;
+  }
+  .box h1{
+    color:#fff;
+    font-size:70px;
+    text-align:center;
+    text-transform:uppercase;
+    transition:all 1s ease;
+  }
+  .box h1:hover{
+    text-shadow: 0 0 10px #ffd700,
+                 0 0 20px #ffd700,
+                  0 0 30px #ffd700,
+                  0 0 40px #ffd700,
+                  0 0 50px #ffd700,
+                  0 0 60px #ffd700;
+  }
